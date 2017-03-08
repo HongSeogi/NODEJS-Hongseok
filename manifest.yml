@@ -1,0 +1,10 @@
+applications:
+- path: .
+  memory: 256M
+  instances: 1
+  domain: mybluemix.net
+  name: NODEJS-Hongseok
+  host: NODEJS-Hongseok
+  disk_quota: 1024M
+  services:
+  - Auto-Scaling-pt
